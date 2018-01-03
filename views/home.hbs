@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    {{> header}} <!-- This is the syntax for passing in a partial file -->
+    <p>{{screamIt welcomeMessage}}</p> <!-- we're calling the screamIt helper, passing in one argument 'welcomeMessage' -->
+    {{> footer}}
+  </body>
+</html>
